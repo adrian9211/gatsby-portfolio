@@ -22,7 +22,7 @@ module.exports = {
                 //     domain: 'https://edinburghwebdeveloper.netlify.app/',
                 // },
                 googleAnalytics: {
-                    trackingId: "UA-171132178-1",
+                    trackingId: "G-6VL8R267QM",
                     head: true, // Default false
                     anonymize: false, // Default true
                     environments: ["production", "development"] // Default ["production"]
