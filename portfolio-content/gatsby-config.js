@@ -3,10 +3,10 @@ module.exports = {
         {
             resolve: 'theme',
             options: {
-                // siteUrl: "https://example.com", // Used for sitemap generation
+                siteUrl: "https://edinburghwebdeveloper.netlify.app/", // Used for sitemap generation
                 manifestSettings: {
                     favicon: './content/images/favicon.png', // Path is relative to the root
-                    siteName: 'My Minimal Portfolio', // Used in manifest.json
+                    siteName: 'My Portfolio', // Used in manifest.json
                     shortName: 'Portfolio', // Used in manifest.json
                     startUrl: '/', // Used in manifest.json
                     backgroundColor: '#FFFFFF', // Used in manifest.json
@@ -18,14 +18,15 @@ module.exports = {
                     path: '/blog', // Defines the slug for the blog listing page
                     usePathPrefixForArticles: false, // Default true (i.e. path will be /blog/first-article)
                 },
-                // plausibleAnalytics: {
-                //     domain: 'example.com',
-                // },
-                // googleAnalytics: {
-                //     trackingId: "UA-XXXXXX-X",
-                //     anonymize: true, // Default true
-                //     environments: ["production", "development"] // Default ["production"]
-                // }
+                plausibleAnalytics: {
+                    domain: 'https://edinburghwebdeveloper.netlify.app/',
+                },
+                googleAnalytics: {
+                    trackingId: "G-6VL8R267QM",
+                    head: true, // Default false
+                    anonymize: false, // Default true
+                    environments: ["production", "development"] // Default ["production"]
+                }
             },
         },
     ],
