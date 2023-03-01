@@ -18,11 +18,11 @@ module.exports = {
                     path: '/blog', // Defines the slug for the blog listing page
                     usePathPrefixForArticles: false, // Default true (i.e. path will be /blog/first-article)
                 },
-                plausibleAnalytics: {
-                    domain: 'https://edinburghwebdeveloper.netlify.app/',
-                },
+                // plausibleAnalytics: {
+                //     domain: 'https://edinburghwebdeveloper.netlify.app/',
+                // },
                 googleAnalytics: {
-                    trackingId: "G-6VL8R267QM",
+                    trackingId: "UA-171132178-1",
                     head: true, // Default false
                     anonymize: false, // Default true
                     environments: ["production", "development"] // Default ["production"]
