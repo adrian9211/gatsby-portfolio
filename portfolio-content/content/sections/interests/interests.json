@@ -1,0 +1,65 @@
+{
+  "interests": [
+    {
+      "label": "PHP & MySQL",
+      "image": {
+        "src": "../../images/php.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Laravel",
+      "image": {
+        "src": "../../images/laravel.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Responsive Design",
+      "image": {
+        "src": "../../images/nail-polish.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "React",
+      "image": {
+        "src": "../../images/react.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Animations",
+      "image": {
+        "src": "../../images/gem-stone.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Accessibility",
+      "image": {
+        "src": "../../images/accessibility.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Modern Tech-Stack",
+      "image": {
+        "src": "../../images/gatsby.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Performance",
+      "image": {
+        "src": "../../images/performance.png",
+        "alt": ""
+      }
+    }
+  ],
+  "button": {
+    "visible": true,
+    "label": "+ Load More",
+    "initiallyShownInterests": 5
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "intro": "Hi,",
+
+  "title": "My name is Adrian,",
+  "subtitle": {
+    "prefix": "a freelance web developer based in Edinburgh, Scotland",
+    "suffix": "."
+  },
+  "description": "Whether you're in need of a stunning new website or looking to enhance your current one, I am here to help. With a passion for delivering innovative and user-friendly web experiences, I work closely with clients to understand their unique needs and bring their vision to life. So if you're looking for a talented and dedicated web developer, look no further. I would be honored to work with you to bring your web project to life. Let's connect and start building something amazing together.",
+  "socialProfiles": {
+    "from": ["LinkedIn", "StackOverflow", "Github", "Mail", "Instagram"],
+    "showIcons": false
+  }
+}

@@ -1,0 +1,38 @@
+{
+    "private": true,
+    "scripts": {
+        "test": "yarn workspace theme test",
+        "clean": "yarn workspace portfolio-content clean",
+        "build": "yarn workspace portfolio-content build",
+        "develop": "yarn workspace portfolio-content develop",
+        "serve": "yarn workspace portfolio-content serve",
+        "format": "prettier --write --ignore-path .gitignore \"**/*.+(js|jsx|json|yml|yaml|css|less|scss|ts|tsx|graphql|md|mdx)\"",
+        "lint": "yarn workspaces run lint"
+    },
+    "workspaces": [
+        "theme",
+        "portfolio-content"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/konstantinmuenster/portfolio-content.git"
+    },
+    "devDependencies": {
+        "husky": "4",
+        "lint-staged": "^10.5.4",
+        "prettier": "^2.2.1"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "lint-staged": {
+        "*.+(ts|tsx)": [
+            "yarn lint"
+        ],
+        "*.+(js|jsx|json|yml|yaml|css|less|scss|ts|tsx|md|graphql|mdx)": [
+            "yarn format"
+        ]
+    }
+}
