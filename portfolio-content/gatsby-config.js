@@ -6,7 +6,7 @@ module.exports = {
                 siteUrl: "https://edinburghwebdeveloper.netlify.app/", // Used for sitemap generation
                 manifestSettings: {
                     favicon: './content/images/favicon.png', // Path is relative to the root
-                    siteName: 'My Portfolio', // Used in manifest.json
+                    siteName: 'Freelance Web Developer Edinburgh', // Used in manifest.json
                     shortName: 'Portfolio', // Used in manifest.json
                     startUrl: '/', // Used in manifest.json
                     backgroundColor: '#FFFFFF', // Used in manifest.json
@@ -27,7 +27,16 @@ module.exports = {
                     anonymize: false, // Default true
                     environments: ["production", "development"] // Default ["production"]
                 }
+            }},
+        {
+            resolve: 'gatsby-plugin-robots-txt',
+            options: {
+                host: 'https://edinburghwebdeveloper.netlify.app/',
+                sitemap: 'https://edinburghwebdeveloper.netlify.app/sitemap-index.xml',
+                policy: [{userAgent: '*', allow: '/'}]
             },
+
         },
+
     ],
 };

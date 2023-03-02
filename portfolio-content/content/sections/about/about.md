@@ -1,6 +1,6 @@
 ---
 imageSrc: "../../images/portrait.jpg"
-imageAlt: "About Me section image"
+imageAlt: "Freelance Web Developer Edinburgh"
 ---
 
 As a passionate freelance web developer, I am dedicated to delivering high-quality and user-friendly web experiences. I have a strong understanding of the latest web technologies and stay up-to-date with industry trends to ensure that my clients receive cutting-edge solutions.

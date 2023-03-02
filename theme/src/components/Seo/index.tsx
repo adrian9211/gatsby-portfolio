@@ -38,6 +38,7 @@ export function Seo(props: SeoProps): React.ReactElement {
             <meta property="twitter:description" content={siteMetadata.description} />
             <meta name="google-site-verification" content="oaS0Flklqp6676pI9tHJwwZLCU2NSJlSOygIfdcDKzo" />
             <meta name="msvalidate.01" content="E5233491FF0A4E30270C1E4578B1602E" />
+            <meta name="robots" content="index" />
         </Helmet>
     );
 }

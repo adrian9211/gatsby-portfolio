@@ -4,56 +4,56 @@
       "label": "PHP & MySQL",
       "image": {
         "src": "../../images/php.png",
-        "alt": ""
+        "alt": "PHP Freelance Web Developer Edinburgh"
       }
     },
     {
       "label": "Laravel",
       "image": {
         "src": "../../images/laravel.png",
-        "alt": ""
+        "alt": "Laravel Freelance Web Developer Edinburgh"
       }
     },
     {
       "label": "Responsive Design",
       "image": {
         "src": "../../images/nail-polish.png",
-        "alt": ""
+        "alt": "Responsive Design Freelance Web Developer Edinburgh"
       }
     },
     {
       "label": "React",
       "image": {
         "src": "../../images/react.png",
-        "alt": ""
+        "alt": "React Freelance Web Developer Edinburgh"
       }
     },
     {
       "label": "Animations",
       "image": {
         "src": "../../images/gem-stone.png",
-        "alt": ""
+        "alt": "Animations Freelance Web Developer Edinburgh"
       }
     },
     {
       "label": "Accessibility",
       "image": {
         "src": "../../images/accessibility.png",
-        "alt": ""
+        "alt": "Accessibility Freelance Web Developer Edinburgh"
       }
     },
     {
       "label": "Modern Tech-Stack",
       "image": {
         "src": "../../images/gatsby.png",
-        "alt": ""
+        "alt": "Modern Tech-Stack Freelance Web Developer Edinburgh"
       }
     },
     {
       "label": "Performance",
       "image": {
         "src": "../../images/performance.png",
-        "alt": ""
+        "alt": "Performance Freelance Web Developer Edinburgh"
       }
     }
   ],

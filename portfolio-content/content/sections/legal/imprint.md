@@ -4,12 +4,12 @@ sectionId: imprint
 
 #### Information pursuant to § 5 TMG
 
-YOURNAME<br />
-YOURSTREET<br />
-YOURCITY<br />
-YOURCOUNTRY
+Adrian Nykiel<br />
+Fife and Midlothian Area<br />*
+Edinburgh<br />
+Scotland<br />
 
-E-Mail Address: <u>YOURMAIL@DOMAIN.COM</u>
+E-Mail Address: <u>adrian.nykiel@gmail.com</u>
 
 ---
 
