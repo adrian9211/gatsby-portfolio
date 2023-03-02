@@ -6,6 +6,7 @@
     "title": "Freelance Web developer based Edinburgh, Scotland",
     "description": "Freelance web developer based in Edinburgh, Scotland. I specialise in building websites and web applications using React, Gatsby, Node.js, and GraphQL.",
     "avatar": "../content/images/logo.png",
+    "author": "Adrian Nykiel",
     "bio": "I'm passionate about building websites and web applications using React, Gatsby, Node.js, and GraphQL. I'm currently looking for a job as a web developer",
     "social": {
       "github": "https://github.com/adrian9211",
