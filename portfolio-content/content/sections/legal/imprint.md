@@ -17,24 +17,15 @@ Fife and Midlothian Area<br />
 Edinburgh<br />
 Scotland<br />
 
-E-Mail Address: <u>adrian.nykiel@gmail.com</u>
+E-Mail Address: <u>adrian.nykiel@gmail.com</u> <br /><br />
+
 My goal is committed to providing you with excellent website development services, and I'm happy to answer any questions you may have about my services. Please do not hesitate to contact with me using the information provided above.
 
-Thank you for choosing us as your website development partner.
+Thank you for choosing me as your website development partner.
 
 Sincerely,
 
 
-
----
-
-#### Liability for Links
-
-Our offer includes links to external third party websites. I have no influence on the contents of those websites, therefore I cannot guarantee for those contents. Providers or administrators of linked websites are always responsible for their own contents.
-
-The linked websites had been checked for possible violations of law at the time of the establishment of the link. Illegal contents were not detected at the time of the linking. A permanent monitoring of the contents of linked websites cannot be imposed without reasonable indications that there has been a violation of law. Illegal links will be removed immediately at the time we get knowledge of them.
-
----
 
 #### Copyright
 
