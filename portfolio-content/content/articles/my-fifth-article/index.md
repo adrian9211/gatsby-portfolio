@@ -3,8 +3,8 @@ title: "GitKraken - brief introduction"
 description: "GitKraken: A User-Friendly Way to Manage Your Code"
 date: "2023-22-03"
 banner:
-src: "../../images/kraken.png"
-alt: "Desktop App"
+   src: "../../images/kraken.png"
+   alt: "Desktop App"
 categories:
 - "GIT"
 - "Tutorial"
@@ -14,7 +14,7 @@ categories:
 - "Desktop App"
 - "GitKraken"
 - "Kraken"
-  keywords:
+keywords:
 - "Example"
 - "GIT"
 - "App"
@@ -46,8 +46,7 @@ GitKraken is a powerful Git GUI that provides a visual representation of your Gi
 3. Multi-Platform Support
    GitKraken supports multiple platforms, including Windows, macOS, and Linux. This means that developers can use the app on their preferred operating system without worrying about compatibility issues. The app also integrates with popular code editors, such as Visual Studio Code and Atom, making it easy to manage your code within your favorite editor.
 
-
-![This is the alt tag.](../../images/githubdesktop3.png)
+![This is the alt tag.](../../images/kraken3.png)
 
 4. Integration with GitHub
    GitHub is a popular code hosting platform used by developers to store and share their code. GitKraken integrates seamlessly with GitHub, allowing you to easily push your changes to your GitHub repository. This makes it easier to manage your code and collaborate with other developers on GitHub.
