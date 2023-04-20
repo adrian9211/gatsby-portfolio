@@ -2,7 +2,8 @@
   "siteMetadata": {
     "language": "en",
     "google-site-verification": "content=oaS0Flklqp6676pI9tHJwwZLCU2NSJlSOygIfdcDKzo",
-    "siteUrl": "https://edinburghwebdeveloper.netlify.app/",
+    "siteUrl": "https://adrianswebdev.com/",
+    "keywords" : "Freelance Web developer Edinburgh, Scotland",
     "title": "Freelance Web developer based Edinburgh, Scotland",
     "description": "Freelance web developer based in Edinburgh, Scotland. I specialise in building websites and web applications using React, Gatsby, Node.js, and GraphQL.",
     "avatar": "../content/images/logo.png",
