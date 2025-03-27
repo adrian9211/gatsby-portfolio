@@ -2,13 +2,13 @@
   "projects": [
     {
       "visible": true,
-      "category": " Garage website",
-      "title": "Mullens Motor Club Ltd",
-      "description": "A website for a local garage. Built using PHP, MariaDB and hosted on Microsoft Azure.",
-      "tags": ["PHP", "MariaDB", "Azure", "HTML", "CSS", "JavaScript", "Bootstrap" , "Cloud", "Responsive", "SEO", "Bitnami"],
+      "category": "Internall Amazon Tool",
+      "title": "Flowy, associates management tool",
+      "description": "Flowy is an internal tool for managing employees. It allows real-time shift planning in every onboarded department. It covers a 24-hour shift timeframe, providing seamless pipeline release according to internal standards. ",
+      "tags": ["Vue JS", "AWS", "PostgrSQL", "Tailwind", "Pipelines", "TypeScript", "Websockets" , "Cloud"],
       "image": {
-        "src": "../../images/mmc.jpg",
-        "alt": "Freelance Web Developer Edinburgh, Garage website",
+        "src": "../../images/amazon3.png",
+        "alt": "Quick Setup",
         "linkTo": "https://github.com/adrian9211"
       },
       "links": [
@@ -24,13 +24,57 @@
     },
     {
       "visible": true,
+      "category": "Aquati Ltd",
+      "title": "Aquati.co.uk",
+      "description": "Aquati Ltd is a UK-based water solutions provider dedicated to delivering advanced aquatic technology and sustainable water management systems. Rooted in a commitment to research-driven innovation, Aquati offers an extensive range of products and services designed to optimise performance, reduce environmental impact, and meet the unique needs of various industries. Their approach combines high-quality engineering, user-friendly interfaces, and cutting-edge design to ensure reliable, efficient, and scalable solutions. Through continuous investment in emerging technologies and an unwavering focus on customer satisfaction, Aquati remains at the forefront of environmentally conscious water management practices.",
+      "tags": ["PHP", "WordPress", "WooCommerce", "Hostinger", "Cloud", "Responsive Design", "Figma", "Cloud", "SEO", "Secure Payments", "Marketing"],
+      "image": {
+        "src": "../../images/AQTlogo.jpg",
+        "alt": "Extendable Layout",
+        "linkTo": "https://aquati.co.uk"
+      },
+      "links": [
+        {
+          "type": "external",
+          "url": "https://www.aquati.co.uk"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "Saltire Scholar member",
+      "title": "Gareth Williams Cofounder & ex-CEO of Skyscanner Data Analyst Intern",
+      "description": "During my Saltire Scholar internship under Gareth Williams, Co-Founder of Skyscanner, I focused on data analysis and innovation. By examining government procurement procedures, I identified inefficiencies and opportunities for improvement and leveraged AI-driven solutions to streamline data collection, categorization, and synthesis. My findings were translated into clear, actionable reports, enhancing stakeholder decision-making. This experience also provided valuable insights into entrepreneurial best practices and cross-functional team collaboration, shaping my approach to strategic problem-solving.",
+      "tags": ["Python", "OpenAI API", "Data Analysis", "Pandas", "Dealflow"],
+      "image": {
+        "src": "../../images/saltire.png",
+        "alt": "Quick Setup",
+        "linkTo": "https://github.com/adrian9211"
+      },
+      "links": [
+        {
+          "type": "external",
+          "url": "https://www.entrepreneurialscotland.com/programmes/saltire-scholar-programme"
+        },
+        {
+          "type": "external",
+          "url": "https://dealflow.eu/"
+        },
+        {
+          "type": "external",
+          "url": "https://dealflow.eu/"
+        }
+      ]
+    },
+    {
+      "visible": true,
       "category": "Local Cinema website",
       "title": "Limelight-Cinema",
       "description": "A website for a local cinema. Built using PHP, MariaDB and hosted on Microsoft Azure. Limelight Cinema is great first choice local cinema and eCommerce ticket Platform. We are based on Midlothian area in South Scotland. Here we will provide you only interesting content, which you will like very much. We're dedicated to providing you the best of The local cinema, eCommerce ticket, with a focus on dependability and Entertainment industry. We're working to turn our passion for this business and eCommerce platform for better online ticket booking experience. We hope you enjoy our website as much as we enjoy offering them to you.",
       "tags": ["PHP", "JavaScript", "MariaDB", "Azure", "HTML", "CSS", "Bootstrap", "Cloud", "Responsive", "SEO", "Bitnami"],
       "image": {
         "src": "../../images/limelight.png",
-        "alt": "Freelance Web Developer Edinburgh, Local Cinema website"
+        "alt": "Extendable Layout"
       },
       "links": [
         {
