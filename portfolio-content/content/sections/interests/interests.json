@@ -1,59 +1,59 @@
 {
   "interests": [
     {
-      "label": "PHP & MySQL",
+      "label": "Vue JS",
       "image": {
-        "src": "../../images/php.png",
-        "alt": "PHP Freelance Web Developer Edinburgh"
+        "src": "../../images/vue.png",
+        "alt": ""
       }
     },
     {
-      "label": "Laravel",
+      "label": "Tailwind CSS",
       "image": {
-        "src": "../../images/laravel.png",
-        "alt": "Laravel Freelance Web Developer Edinburgh"
+        "src": "../../images/img_2.png",
+        "alt": ""
       }
     },
     {
       "label": "Responsive Design",
       "image": {
         "src": "../../images/nail-polish.png",
-        "alt": "Responsive Design Freelance Web Developer Edinburgh"
+        "alt": ""
       }
     },
     {
-      "label": "React",
+      "label": "TypeScript",
       "image": {
-        "src": "../../images/react.png",
-        "alt": "React Freelance Web Developer Edinburgh"
+        "src": "../../images/img_4.png",
+        "alt": ""
       }
     },
     {
-      "label": "Animations",
+      "label": "PostgreSQL",
       "image": {
-        "src": "../../images/gem-stone.png",
-        "alt": "Animations Freelance Web Developer Edinburgh"
+        "src": "../../images/img_3.png",
+        "alt": ""
       }
     },
     {
       "label": "Accessibility",
       "image": {
         "src": "../../images/accessibility.png",
-        "alt": "Accessibility Freelance Web Developer Edinburgh"
+        "alt": ""
       }
     },
     {
       "label": "Modern Tech-Stack",
       "image": {
         "src": "../../images/gatsby.png",
-        "alt": "Modern Tech-Stack Freelance Web Developer Edinburgh"
+        "alt": ""
       }
     },
     {
       "label": "Performance",
       "image": {
         "src": "../../images/performance.png",
-        "alt": "Performance Freelance Web Developer Edinburgh"
+        "alt": ""
       }
     }
   ],

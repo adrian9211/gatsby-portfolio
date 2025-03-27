@@ -68,7 +68,7 @@
     },
     {
       "visible": true,
-      "category": "Local Cinema website",
+      "category": "Local Cinema website, College project",
       "title": "Limelight-Cinema",
       "description": "A website for a local cinema. Built using PHP, MariaDB and hosted on Microsoft Azure. Limelight Cinema is great first choice local cinema and eCommerce ticket Platform. We are based on Midlothian area in South Scotland. Here we will provide you only interesting content, which you will like very much. We're dedicated to providing you the best of The local cinema, eCommerce ticket, with a focus on dependability and Entertainment industry. We're working to turn our passion for this business and eCommerce platform for better online ticket booking experience. We hope you enjoy our website as much as we enjoy offering them to you.",
       "tags": ["PHP", "JavaScript", "MariaDB", "Azure", "HTML", "CSS", "Bootstrap", "Cloud", "Responsive", "SEO", "Bitnami"],
