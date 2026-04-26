@@ -4,7 +4,7 @@
       "visible": true,
       "category": "Internal Amazon Tool",
       "title": "Flowy, associates management tool",
-      "description": "Flowy is a real-time workforce management system used across multiple Amazon departments. It enables 24-hour shift planning with live WebSocket updates, handling complex scheduling logic for onboarded teams. Built over 18 months with enterprise-grade CI/CD pipelines, robust cloud infrastructure, and a focus on reliability at scale.",
+      "description": "Flowy is a real-time workforce management system used across multiple Amazon departments. It enables 24-hour shift planning with live WebSocket updates, handling complex scheduling logic for onboarded teams. Built with enterprise-grade CI/CD pipelines, robust cloud infrastructure, and a focus on reliability at scale.",
       "tags": ["Vue JS", "AWS", "PostgreSQL", "Tailwind", "TypeScript", "Websockets", "Pipelines", "Cloud"],
       "image": {
         "src": "../../images/amazon3.png",

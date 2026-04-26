@@ -6,6 +6,7 @@ export { AboutSection } from './src/sections/About';
 export { InterestsSection } from './src/sections/Interests';
 export { ProjectsSection } from './src/sections/Projects';
 export { ContactSection } from './src/sections/Contact';
+export { MetricsSection } from './src/sections/Metrics';
 export { LegalSection } from './src/sections/Legal';
 export { Section } from './src/components/Section';
 export { Animation } from './src/components/Animation';

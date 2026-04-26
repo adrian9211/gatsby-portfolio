@@ -1,0 +1,52 @@
+.Metrics {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .Metrics {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.Metric {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    background: var(--card-background-color);
+    box-shadow: 0 0 1.5rem var(--box-shadow-color);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+}
+
+.Metric:hover {
+    transform: translateY(-0.25rem);
+    box-shadow: 0 0 2.5rem var(--box-shadow-hover-color);
+}
+
+.Value {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+
+@media (min-width: 768px) {
+    .Value {
+        font-size: 3rem;
+    }
+}
+
+.Label {
+    font-size: 0.875rem;
+    color: var(--subtext-color);
+    font-weight: 400;
+    line-height: 1.4;
+    max-width: 10rem;
+}

@@ -49,8 +49,8 @@ export function Project(props: ProjectProps): React.ReactElement {
                         props.data.tags.length !== 0 &&
                         props.data.tags.map((tag, key) => {
                             return (
-                                <span key={key}>
-                                    <u>{tag}</u>
+                                <span key={key} className={classes.Tag}>
+                                    {tag}
                                 </span>
                             );
                         })}
