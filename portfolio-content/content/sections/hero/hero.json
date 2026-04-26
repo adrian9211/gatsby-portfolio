@@ -8,7 +8,7 @@
   },
   "description": "First Class Honours graduate with 18 months of hands-on experience building enterprise-grade applications at Amazon. Saltire Scholar under Gareth Williams, Co-Founder of Skyscanner. I build performant, scalable web applications across the full stack — from real-time workforce management systems to AI-powered SaaS platforms. My toolkit spans Vue, React, Next.js, TypeScript, AWS, PostgreSQL, and AI integration.",
   "socialProfiles": {
-    "from": ["LinkedIn", "StackOverflow", "Github", "Mail", "Instagram"],
+    "from": ["LinkedIn", "StackOverflow", "Github", "Mail"],
     "showIcons": false
   }
 }

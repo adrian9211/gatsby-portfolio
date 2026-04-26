@@ -7,7 +7,7 @@
     "alt": "Contact Logo Freelance Web Developer Edinburgh"
   },
   "socialProfiles": {
-    "from": ["LinkedIn", "StackOverflow", "Github", "Mail", "Instagram"],
+    "from": ["LinkedIn", "StackOverflow", "Github", "Mail"],
     "showIcons": true
   }
 }
