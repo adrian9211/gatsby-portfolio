@@ -1,7 +1,2 @@
-[build]
-  base = "/"
-  command = "yarn build"
-  publish = "portfolio-content/public"
-
 [build.environment]
   NODE_VERSION = "22"
