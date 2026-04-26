@@ -3,11 +3,11 @@ module.exports = {
         {
             resolve: 'theme',
             options: {
-                siteUrl: "https://edinburghwebdeveloper.netlify.app/", // Used for sitemap generation
+                siteUrl: "https://adrianswebdev.com", // Used for sitemap generation
                 manifestSettings: {
                     favicon: './content/images/favicon.png', // Path is relative to the root
-                    siteName: 'Freelance Web Developer Edinburgh', // Used in manifest.json
-                    shortName: 'Portfolio', // Used in manifest.json
+                    siteName: 'Adrian Nykiel — Full-Stack Developer, Edinburgh', // Used in manifest.json
+                    shortName: 'Adrian Nykiel', // Used in manifest.json
                     startUrl: '/', // Used in manifest.json
                     backgroundColor: '#FFFFFF', // Used in manifest.json
                     themeColor: '#000000', // Used in manifest.json
@@ -19,7 +19,7 @@ module.exports = {
                     usePathPrefixForArticles: false, // Default true (i.e. path will be /blog/first-article)
                 },
                 plausibleAnalytics: {
-                    domain: 'https://edinburghwebdeveloper.netlify.app/',
+                    domain: 'adrianswebdev.com',
                 },
                 googleAnalytics: {
                     trackingId: "G-6VL8R267QM",
@@ -31,8 +31,8 @@ module.exports = {
         {
             resolve: 'gatsby-plugin-robots-txt',
             options: {
-                host: 'https://edinburghwebdeveloper.netlify.app/',
-                sitemap: 'https://edinburghwebdeveloper.netlify.app/sitemap-index.xml',
+                host: 'https://adrianswebdev.com',
+                sitemap: 'https://adrianswebdev.com/sitemap-index.xml',
                 policy: [{userAgent: '*', allow: '/'}]
             },
 

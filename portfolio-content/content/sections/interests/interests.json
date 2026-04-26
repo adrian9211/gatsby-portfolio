@@ -4,62 +4,90 @@
       "label": "Vue JS",
       "image": {
         "src": "../../images/vue.png",
-        "alt": ""
+        "alt": "Vue JS"
       }
     },
     {
-      "label": "Tailwind CSS",
+      "label": "React / Next.js",
       "image": {
-        "src": "../../images/img_2.png",
-        "alt": ""
-      }
-    },
-    {
-      "label": "Responsive Design",
-      "image": {
-        "src": "../../images/nail-polish.png",
-        "alt": ""
+        "src": "../../images/react.png",
+        "alt": "React and Next.js"
       }
     },
     {
       "label": "TypeScript",
       "image": {
         "src": "../../images/img_4.png",
-        "alt": ""
+        "alt": "TypeScript"
+      }
+    },
+    {
+      "label": "Node.js / Express",
+      "image": {
+        "src": "../../images/js.png",
+        "alt": "Node.js and Express"
       }
     },
     {
       "label": "PostgreSQL",
       "image": {
         "src": "../../images/img_3.png",
-        "alt": ""
+        "alt": "PostgreSQL"
       }
     },
     {
-      "label": "Accessibility",
+      "label": "AWS / Cloud",
       "image": {
-        "src": "../../images/accessibility.png",
-        "alt": ""
+        "src": "../../images/high-voltage.png",
+        "alt": "AWS and Cloud"
       }
     },
     {
-      "label": "Modern Tech-Stack",
+      "label": "Tailwind CSS",
       "image": {
-        "src": "../../images/gatsby.png",
-        "alt": ""
+        "src": "../../images/img_2.png",
+        "alt": "Tailwind CSS"
       }
     },
     {
-      "label": "Performance",
+      "label": "Python",
+      "image": {
+        "src": "../../images/wrench.png",
+        "alt": "Python"
+      }
+    },
+    {
+      "label": "AI Integration",
+      "image": {
+        "src": "../../images/gem-stone.png",
+        "alt": "AI Integration"
+      }
+    },
+    {
+      "label": "Git / CI/CD",
+      "image": {
+        "src": "../../images/git.png",
+        "alt": "Git and CI/CD"
+      }
+    },
+    {
+      "label": "Responsive Design",
+      "image": {
+        "src": "../../images/nail-polish.png",
+        "alt": "Responsive Design"
+      }
+    },
+    {
+      "label": "Supabase",
       "image": {
         "src": "../../images/performance.png",
-        "alt": ""
+        "alt": "Supabase"
       }
     }
   ],
   "button": {
     "visible": true,
     "label": "+ Load More",
-    "initiallyShownInterests": 5
+    "initiallyShownInterests": 6
   }
 }

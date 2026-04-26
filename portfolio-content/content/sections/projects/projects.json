@@ -2,54 +2,64 @@
   "projects": [
     {
       "visible": true,
-      "category": "Internall Amazon Tool",
+      "category": "Internal Amazon Tool",
       "title": "Flowy, associates management tool",
-      "description": "Flowy is an internal tool for managing employees. It allows real-time shift planning in every onboarded department. It covers a 24-hour shift timeframe, providing seamless pipeline release according to internal standards. ",
-      "tags": ["Vue JS", "AWS", "PostgrSQL", "Tailwind", "Pipelines", "TypeScript", "Websockets" , "Cloud"],
+      "description": "Flowy is a real-time workforce management system used across multiple Amazon departments. It enables 24-hour shift planning with live WebSocket updates, handling complex scheduling logic for onboarded teams. Built over 18 months with enterprise-grade CI/CD pipelines, robust cloud infrastructure, and a focus on reliability at scale.",
+      "tags": ["Vue JS", "AWS", "PostgreSQL", "Tailwind", "TypeScript", "Websockets", "Pipelines", "Cloud"],
       "image": {
         "src": "../../images/amazon3.png",
-        "alt": "Quick Setup",
-        "linkTo": "https://github.com/adrian9211"
+        "alt": "Flowy Amazon Internal Tool"
+      },
+      "links": [
+        {
+          "type": "external",
+          "url": "https://www.amazon.co.uk"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "Personal Project — AI SaaS",
+      "title": "Private Coach, AI cycling coaching platform",
+      "description": "An AI-powered cycling coaching SaaS that processes Garmin FIT files, syncs with Intervals.icu via OAuth, and delivers personalised training insights using Google Gemini. Features include interactive GPS maps, power zone analytics, CTL/ATL/TSB tracking, a library of 1,000+ structured workouts, AI-generated weekly training plans, and real-time coaching chat.",
+      "tags": ["Next.js", "React", "TypeScript", "Supabase", "PostgreSQL", "Google Gemini", "Tailwind"],
+      "image": {
+        "src": "../../images/react.png",
+        "alt": "Private Coach AI Cycling Platform"
       },
       "links": [
         {
           "type": "github",
           "url": "https://github.com/adrian9211"
-        },
-        {
-          "type": "external",
-          "url": "https://www.gatsbyjs.org/docs/mdx/writing-pages/"
         }
       ]
     },
     {
       "visible": true,
-      "category": "Aquati Ltd",
-      "title": "Aquati.co.uk",
-      "description": "Aquati Ltd is a UK-based water solutions provider dedicated to delivering advanced aquatic technology and sustainable water management systems. Rooted in a commitment to research-driven innovation, Aquati offers an extensive range of products and services designed to optimise performance, reduce environmental impact, and meet the unique needs of various industries. Their approach combines high-quality engineering, user-friendly interfaces, and cutting-edge design to ensure reliable, efficient, and scalable solutions. Through continuous investment in emerging technologies and an unwavering focus on customer satisfaction, Aquati remains at the forefront of environmentally conscious water management practices.",
-      "tags": ["PHP", "WordPress", "WooCommerce", "Hostinger", "Cloud", "Responsive Design", "Figma", "Cloud", "SEO", "Secure Payments", "Marketing"],
+      "category": "Honours Project — Best in Class",
+      "title": "Imopeksis, educational knowledge platform",
+      "description": "A full-stack educational platform built as my honours project at Edinburgh Napier University, achieving the best result and best project in a cohort of 30+ students. Features 50+ curated articles with audio streaming, audience segmentation for teachers, parents, and coaches, full-text search, and an Express API with a Vue 3 frontend.",
+      "tags": ["Vue JS", "TypeScript", "Tailwind", "Node.js", "Express", "Vite", "Netlify", "Render"],
       "image": {
-        "src": "../../images/AQTlogo.jpg",
-        "alt": "Extendable Layout",
-        "linkTo": "https://aquati.co.uk"
+        "src": "../../images/vue.png",
+        "alt": "Imopeksis Educational Platform"
       },
       "links": [
         {
-          "type": "external",
-          "url": "https://www.aquati.co.uk"
+          "type": "github",
+          "url": "https://github.com/adrian9211"
         }
       ]
     },
     {
       "visible": true,
-      "category": "Saltire Scholar member",
-      "title": "Gareth Williams Cofounder & ex-CEO of Skyscanner Data Analyst Intern",
-      "description": "During my Saltire Scholar internship under Gareth Williams, Co-Founder of Skyscanner, I focused on data analysis and innovation. By examining government procurement procedures, I identified inefficiencies and opportunities for improvement and leveraged AI-driven solutions to streamline data collection, categorization, and synthesis. My findings were translated into clear, actionable reports, enhancing stakeholder decision-making. This experience also provided valuable insights into entrepreneurial best practices and cross-functional team collaboration, shaping my approach to strategic problem-solving.",
+      "category": "Saltire Scholar Internship",
+      "title": "Data Analyst Intern under Gareth Williams, Co-Founder of Skyscanner",
+      "description": "During my Saltire Scholar internship under Gareth Williams, Co-Founder of Skyscanner, I analysed government procurement procedures to identify inefficiencies and leveraged AI-driven solutions to streamline data collection, categorisation, and synthesis. Delivered clear, actionable reports that enhanced stakeholder decision-making while gaining valuable insights into entrepreneurial strategy and cross-functional collaboration.",
       "tags": ["Python", "OpenAI API", "Data Analysis", "Pandas", "Dealflow"],
       "image": {
         "src": "../../images/saltire.png",
-        "alt": "Quick Setup",
-        "linkTo": "https://github.com/adrian9211"
+        "alt": "Saltire Scholar Programme"
       },
       "links": [
         {
@@ -59,27 +69,24 @@
         {
           "type": "external",
           "url": "https://dealflow.eu/"
-        },
-        {
-          "type": "external",
-          "url": "https://dealflow.eu/"
         }
       ]
     },
     {
       "visible": true,
-      "category": "Local Cinema website, College project",
-      "title": "Limelight-Cinema",
-      "description": "A website for a local cinema. Built using PHP, MariaDB and hosted on Microsoft Azure. Limelight Cinema is great first choice local cinema and eCommerce ticket Platform. We are based on Midlothian area in South Scotland. Here we will provide you only interesting content, which you will like very much. We're dedicated to providing you the best of The local cinema, eCommerce ticket, with a focus on dependability and Entertainment industry. We're working to turn our passion for this business and eCommerce platform for better online ticket booking experience. We hope you enjoy our website as much as we enjoy offering them to you.",
-      "tags": ["PHP", "JavaScript", "MariaDB", "Azure", "HTML", "CSS", "Bootstrap", "Cloud", "Responsive", "SEO", "Bitnami"],
+      "category": "Self-Employed — Client Project",
+      "title": "Aquati.co.uk",
+      "description": "A WordPress e-commerce platform built and maintained for Aquati Ltd, a UK-based water solutions provider. The site features secure WooCommerce payments, SEO-optimised product pages, responsive design across all devices, and cloud hosting. Designed in Figma and delivered end-to-end from branding to deployment.",
+      "tags": ["PHP", "WordPress", "WooCommerce", "Cloud", "Responsive Design", "Figma", "SEO", "Secure Payments"],
       "image": {
-        "src": "../../images/limelight.png",
-        "alt": "Extendable Layout"
+        "src": "../../images/AQTlogo.jpg",
+        "alt": "Aquati Ltd Website",
+        "linkTo": "https://aquati.co.uk"
       },
       "links": [
         {
-          "type": "github",
-          "url": "https://github.com/adrian9211"
+          "type": "external",
+          "url": "https://www.aquati.co.uk"
         }
       ]
     }
