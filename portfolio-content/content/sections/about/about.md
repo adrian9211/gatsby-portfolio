@@ -1,6 +1,5 @@
 ---
-imageSrc: "../../images/portrait.jpg"
-imageAlt: "Freelance Web Developer Edinburgh"
+imageAlt: ""
 ---
 
 I graduated from Edinburgh Napier University in 2025 with a First Class Honours in Web Design and Development — achieving the best result and best project in a cohort of over 30 students. My honours project, Imopeksis, is a full-stack educational platform built with Vue 3 and Express, featuring 50+ articles, audio streaming, and audience-targeted content delivery.

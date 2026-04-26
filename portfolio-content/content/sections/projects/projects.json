@@ -29,6 +29,10 @@
       },
       "links": [
         {
+          "type": "external",
+          "url": "https://private-coach-v2-web-azure.vercel.app/"
+        },
+        {
           "type": "github",
           "url": "https://github.com/adrian9211"
         }
@@ -45,6 +49,10 @@
         "alt": "Imopeksis Educational Platform"
       },
       "links": [
+        {
+          "type": "external",
+          "url": "https://imopeksis-sport-platform.netlify.app"
+        },
         {
           "type": "github",
           "url": "https://github.com/adrian9211"
