@@ -29,11 +29,16 @@ module.exports = ({ actions }) => {
         colorText: String
         colorButton: String
     }
+    type CoreLanguage {
+        name: String
+        years: String
+        note: String
+    }
     type Interest {
         label: String
         category: String
         years: String
-        image: Image
+        note: String
     }
     type InterestsButton {
         visible: Boolean
@@ -184,6 +189,7 @@ module.exports = ({ actions }) => {
         calendly: CalendlyIntegration
     }
     type InterestsJson implements Node @dontInfer {
+        coreLanguages: [CoreLanguage]
         interests: [Interest]
         button: InterestsButton
     }
