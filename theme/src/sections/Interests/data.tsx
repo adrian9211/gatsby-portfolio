@@ -4,6 +4,7 @@ interface Skill {
     label: string;
     category: string;
     years: string;
+    note?: string;
 }
 
 interface InterestsSectionQueryResult {
@@ -23,6 +24,7 @@ export const useLocalDataSource = (): InterestsSectionQueryResult => {
                         label
                         category
                         years
+                        note
                     }
                 }
             }
