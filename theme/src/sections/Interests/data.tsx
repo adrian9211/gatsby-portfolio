@@ -24,7 +24,6 @@ export const useLocalDataSource = (): InterestsSectionQueryResult => {
                         label
                         category
                         years
-                        note
                     }
                 }
             }
