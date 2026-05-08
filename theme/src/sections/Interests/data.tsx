@@ -1,15 +1,22 @@
 import { graphql, useStaticQuery } from 'gatsby';
 
-interface Skill {
+export interface CoreLanguage {
+    name: string;
+    years: string;
+    note: string;
+}
+
+export interface Skill {
     label: string;
     category: string;
     years: string;
-    note?: string;
+    note: string;
 }
 
 interface InterestsSectionQueryResult {
     allInterestsJson: {
         sections: {
+            coreLanguages: CoreLanguage[];
             interests: Skill[];
         }[];
     };
@@ -20,10 +27,16 @@ export const useLocalDataSource = (): InterestsSectionQueryResult => {
         query InterestsSectionQuery {
             allInterestsJson {
                 sections: nodes {
+                    coreLanguages {
+                        name
+                        years
+                        note
+                    }
                     interests {
                         label
                         category
                         years
+                        note
                     }
                 }
             }
