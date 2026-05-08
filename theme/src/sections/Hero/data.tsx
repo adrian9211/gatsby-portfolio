@@ -1,27 +1,17 @@
 import { graphql, useStaticQuery } from 'gatsby';
-import { SocialProfile } from '../../components/SocialProfiles';
-import { ImageObject } from '../../types';
+
+interface Credential {
+    k: string;
+    v: string;
+}
 
 interface HeroSectionQueryResult {
     allHeroJson: {
         sections: {
             description: string;
-            email: string;
-            image: ImageObject;
-            intro: string;
-            heroPhoto: ImageObject;
-            socialProfiles: {
-                from: SocialProfile[];
-                showIcons: boolean;
-            };
-            calendly: {
-                label: string;
-                username: string;
-                colorText: string;
-                colorButton: string;
-            };
+            location: string;
+            credibility: Credential[];
             subtitle: {
-                highlight: string;
                 prefix: string;
                 suffix: string;
             };
@@ -36,35 +26,12 @@ export const useLocalDataSource = (): HeroSectionQueryResult => {
             allHeroJson {
                 sections: nodes {
                     description
-                    heroPhoto {
-                        src {
-                            childImageSharp {
-                                gatsbyImageData(aspectRatio: 1)
-                            }
-                        }
-                        alt
-                    }
-                    image {
-                        alt
-                        src {
-                            childImageSharp {
-                                gatsbyImageData(width: 48, aspectRatio: 1)
-                            }
-                        }
-                    }
-                    intro
-                    socialProfiles {
-                        from
-                        showIcons
-                    }
-                    calendly {
-                        label
-                        username
-                        colorText
-                        colorButton
+                    location
+                    credibility {
+                        k
+                        v
                     }
                     subtitle {
-                        highlight
                         prefix
                         suffix
                     }

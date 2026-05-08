@@ -1,5 +1,22 @@
 import { graphql, useStaticQuery } from 'gatsby';
-import { Project } from '../../components/Project';
+
+interface ProjectLink {
+    type: string;
+    url: string;
+}
+
+export interface ProjectData {
+    category: string;
+    title: string;
+    description: string;
+    glyph?: string;
+    confidential?: boolean;
+    role?: string;
+    year?: string;
+    tags?: string[];
+    links?: ProjectLink[];
+    visible: boolean;
+}
 
 interface ProjectsSectionQueryResult {
     allProjectsJson: {
@@ -9,7 +26,7 @@ interface ProjectsSectionQueryResult {
                 url: string;
                 visible: boolean;
             };
-            projects: Project[];
+            projects: ProjectData[];
         }[];
     };
 }
@@ -26,22 +43,17 @@ export const useLocalDataSource = (): ProjectsSectionQueryResult => {
                     }
                     projects {
                         category
+                        title
                         description
-                        image {
-                            alt
-                            linkTo
-                            src {
-                                childImageSharp {
-                                    gatsbyImageData(width: 400)
-                                }
-                            }
-                        }
+                        glyph
+                        confidential
+                        role
+                        year
+                        tags
                         links {
                             type
                             url
                         }
-                        tags
-                        title
                         visible
                     }
                 }

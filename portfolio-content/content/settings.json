@@ -22,8 +22,8 @@
     },
     "navigation": {
       "header": [
-        { "label": "About", "url": "/#about" },
-        { "label": "Projects", "url": "/#projects" },
+        { "label": "About",   "url": "/#about" },
+        { "label": "Work",    "url": "/#work" },
         { "label": "Contact", "url": "/#contact" }
       ],
       "ctaButton": {
@@ -37,9 +37,9 @@
       ]
     },
     "featureToggles": {
-      "useDarkModeAsDefault": false,
-      "useDarkModeBasedOnUsersPreference": true,
-      "useCookieBar": true
+      "useDarkModeAsDefault": true,
+      "useDarkModeBasedOnUsersPreference": false,
+      "useCookieBar": false
     }
   }
 }

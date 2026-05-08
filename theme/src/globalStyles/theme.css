@@ -1,41 +1,61 @@
-body[data-theme='lightTheme'] {
-    --primary-color: #000000;
-    --secondary-color: #dbeafe;
-    --tertiary-color: #f2f2f2;
-    --text-color: #000000;
-    --subtext-color: #555555;
-    --background-color: #ffffff;
-    --card-background-color: #ffffff;
-    --scroll-bar-color: rgba(0, 0, 0, 0.5);
-    --box-shadow-color: rgba(0, 0, 0, 0.16);
-    --box-shadow-hover-color: rgba(0, 0, 0, 0.32);
-    --base-font: 'Roboto', Arial, sans-serif;
-    --code-block-bg: #f5f6f9;
-    --code-block-var: #da0078;
-    --code-block-num: #bf04b7;
-    --code-block-fun: #3d5afe;
-    --code-block-keyword: #fe4001;
-    --code-block-comment: #7f7f7f;
-    --code-block-tkimp: #fd971f;
-}
+/* ─── Design Tokens ──────────────────────────────────────────────────────────
+   Always-dark editorial palette with amber accent.
+   ──────────────────────────────────────────────────────────────────────────── */
+:root {
+  /* ── Background ──────────────────────────────────────────────────────────── */
+  --bg:         oklch(0.16 0.005 60);
+  --bg-2:       oklch(0.19 0.005 60);
+  --bg-3:       oklch(0.22 0.006 60);
 
-body[data-theme='darkTheme'] {
-    --primary-color: #fafafa;
-    --secondary-color: #1e3a5f;
-    --tertiary-color: #252525;
-    --text-color: rgba(255, 255, 255, 0.87);
-    --subtext-color: #aaaaaa;
-    --background-color: #121212;
-    --card-background-color: #1c1c1c;
-    --scroll-bar-color: rgba(255, 255, 255, 0.5);
-    --box-shadow-color: rgba(0, 0, 0, 0.16);
-    --box-shadow-hover-color: rgba(0, 0, 0, 0.32);
-    --base-font: 'Roboto', Arial, sans-serif;
-    --code-block-bg: #151f28;
-    --code-block-var: #ff39a7;
-    --code-block-num: #fed703;
-    --code-block-fun: #c653ff;
-    --code-block-keyword: #2bdcff;
-    --code-block-comment: #8292a2;
-    --code-block-tkimp: #fd971f;
+  /* ── Lines ───────────────────────────────────────────────────────────────── */
+  --line:       oklch(0.32 0.006 60);
+  --line-soft:  oklch(0.26 0.006 60);
+
+  /* ── Foreground ──────────────────────────────────────────────────────────── */
+  --fg:         oklch(0.96 0.005 80);
+  --fg-2:       oklch(0.78 0.006 80);
+  --fg-3:       oklch(0.58 0.006 80);
+  --fg-4:       oklch(0.42 0.006 80);
+
+  /* ── Accent — amber ──────────────────────────────────────────────────────── */
+  --accent:     oklch(0.78 0.09 70);
+  --accent-ink: oklch(0.18 0.02 70);
+
+  /* ── Typography ──────────────────────────────────────────────────────────── */
+  --display:          "Instrument Serif", ui-serif, Georgia, serif;
+  --body:             "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --mono:             "JetBrains Mono", ui-monospace, monospace;
+  --display-weight:   400;
+  --display-tracking: -0.012em;
+  --display-italic:   italic;
+
+  /* ── Layout ──────────────────────────────────────────────────────────────── */
+  --max:  1280px;
+  --pad:  clamp(20px, 4vw, 56px);
+  --gap:  clamp(80px, 12vh, 160px);
+
+  /* ── Legacy aliases (un-migrated components) ─────────────────────────────── */
+  --background-color:       oklch(0.16 0.005 60);
+  --primary-color:          oklch(0.96 0.005 80);
+  --secondary-color:        oklch(0.78 0.09 70 / 0.18);
+  --tertiary-color:         oklch(0.22 0.006 60);
+  --text-color:             oklch(0.96 0.005 80);
+  --subtext-color:          oklch(0.78 0.006 80);
+  --card-background-color:  oklch(0.19 0.005 60);
+  --scroll-bar-color:       rgba(255, 255, 255, 0.3);
+  --box-shadow-color:       rgba(0, 0, 0, 0.16);
+  --box-shadow-hover-color: rgba(0, 0, 0, 0.32);
+  --base-font:              "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --border-radius:          6px;
+  --page-width:             var(--max);
+  --page-padding:           0 var(--pad);
+  --header-height:          auto;
+  --footer-height:          auto;
+  --code-block-bg:          oklch(0.13 0.005 60);
+  --code-block-var:         oklch(0.78 0.12 20);
+  --code-block-num:         oklch(0.78 0.09 70);
+  --code-block-fun:         oklch(0.78 0.09 240);
+  --code-block-keyword:     oklch(0.78 0.09 150);
+  --code-block-comment:     oklch(0.55 0.006 80);
+  --code-block-tkimp:       oklch(0.78 0.09 55);
 }

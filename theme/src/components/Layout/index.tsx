@@ -1,5 +1,3 @@
-import '@fontsource/roboto/400.css';
-import '@fontsource/roboto/700.css';
 import '../../globalStyles/global.css';
 import '../../globalStyles/theme.css';
 import React from 'react';
@@ -17,25 +15,33 @@ interface LayoutProps {
     useCookieBar: boolean;
 }
 
+const GOOGLE_FONTS =
+    'https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap';
+
 export function Layout(props: LayoutProps): React.ReactElement {
     const { globalState } = useGlobalState();
     const showSplashScreen = props.useSplashScreenAnimation && !globalState.splashScreenDone;
-    const darkModeEnabled = globalState.theme === Theme.Dark;
 
-    const splashScreenView = (
-        <>
-            <Helmet bodyAttributes={{ 'data-theme': Theme.Light }} />
-            <SplashScreen />
-        </>
+    const fontHelmet = (
+        <Helmet bodyAttributes={{ 'data-theme': Theme.Dark }}>
+            <link rel="preconnect" href="https://fonts.googleapis.com" />
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+            <link rel="stylesheet" href={GOOGLE_FONTS} />
+        </Helmet>
     );
 
-    const layoutView = (
+    if (showSplashScreen) {
+        return (
+            <>
+                {fontHelmet}
+                <SplashScreen />
+            </>
+        );
+    }
+
+    return (
         <>
-            <Helmet
-                bodyAttributes={{
-                    'data-theme': darkModeEnabled ? Theme.Dark : Theme.Light,
-                }}
-            />
+            {fontHelmet}
             <div className={classes.Layout}>
                 <Header />
                 <main>{props.children}</main>
@@ -44,6 +50,4 @@ export function Layout(props: LayoutProps): React.ReactElement {
             </div>
         </>
     );
-
-    return showSplashScreen ? splashScreenView : layoutView;
 }

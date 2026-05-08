@@ -1,6 +1,4 @@
 import React from 'react';
-import { GatsbyImage } from 'gatsby-plugin-image';
-import { Animation } from '../../components/Animation';
 import { Section } from '../../components/Section';
 import { useLocalDataSource } from './data';
 import { PageSection } from '../../types';
@@ -11,23 +9,21 @@ export function AboutSection(props: PageSection): React.ReactElement {
     const data = response.allAboutMarkdown.sections[0];
 
     return (
-        <Animation type="fadeUp">
-            <Section anchor={props.sectionId} heading={props.heading}>
-                <div className={classes.About}>
-                    <div className={classes.Description} dangerouslySetInnerHTML={{ __html: data.html }} />
-                    {data.frontmatter.imageSrc?.childImageSharp?.gatsbyImageData && (
-                        <Animation type="fadeLeft" delay={200}>
-                            <div className={classes.ImageWrapper}>
-                                <GatsbyImage
-                                    image={data.frontmatter.imageSrc.childImageSharp.gatsbyImageData}
-                                    className={classes.Image}
-                                    alt={data.frontmatter.imageAlt || `About Image`}
-                                />
-                            </div>
-                        </Animation>
-                    )}
+        <Section anchor={props.sectionId}>
+            <header className={classes.SecHead}>
+                <span className={classes.SecNum}>01</span>
+                <h2 className={classes.SecTitle}>About</h2>
+                <span className={classes.SecRule} aria-hidden="true" />
+            </header>
+            <div className={classes.AboutGrid}>
+                <div className={classes.AboutLede}>
+                    <p>Full-Stack Developer working in production at scale, with an academic record at the top of his cohort and a habit of building products from the bones up.</p>
                 </div>
-            </Section>
-        </Animation>
+                <div
+                    className={classes.AboutBody}
+                    dangerouslySetInnerHTML={{ __html: data.html }}
+                />
+            </div>
+        </Section>
     );
 }

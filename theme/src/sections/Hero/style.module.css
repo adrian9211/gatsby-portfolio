@@ -1,140 +1,154 @@
-.HeroContainer {
+.HeroSection {
+    /* Section component provides padding via --gap; override top to be slightly larger */
+}
+
+/* ── Status bar ─────────────────────────────────────────────────────────── */
+.HeroMeta {
     display: flex;
-    position: relative;
-    overflow: hidden;
+    gap: 0;
+    align-items: center;
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--fg-3);
+    margin-bottom: 36px;
 }
 
-.HeroContainer::before {
-    content: '';
-    position: absolute;
-    top: -50%;
-    right: -20%;
-    width: 60%;
-    height: 200%;
-    background: radial-gradient(ellipse at center, var(--secondary-color) 0%, transparent 70%);
-    opacity: 0.5;
-    animation: gradientDrift 8s ease-in-out infinite alternate;
-    pointer-events: none;
-    z-index: 0;
+.Status {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
 }
 
-.HeroContainer::after {
-    content: '';
-    position: absolute;
-    bottom: -30%;
-    left: -10%;
-    width: 50%;
-    height: 150%;
-    background: radial-gradient(ellipse at center, var(--secondary-color) 0%, transparent 70%);
-    opacity: 0.3;
-    animation: gradientDrift 10s ease-in-out infinite alternate-reverse;
-    pointer-events: none;
-    z-index: 0;
+.StatusDot {
+    width: 7px;
+    height: 7px;
+    border-radius: 99px;
+    background: oklch(0.78 0.13 150);
+    box-shadow: 0 0 0 3px color-mix(in oklch, oklch(0.78 0.13 150) 22%, transparent);
+    flex-shrink: 0;
 }
 
-@keyframes gradientDrift {
-    0% {
-        transform: translate(0, 0) scale(1);
-    }
-    100% {
-        transform: translate(30px, -20px) scale(1.05);
-    }
+.MetaLoc::before {
+    content: "·";
+    padding: 0 18px;
+    color: var(--fg-4);
 }
 
-.Hero {
-    /* flex: 75%; */
+/* ── Headline ───────────────────────────────────────────────────────────── */
+.H1 {
+    font-family: var(--display);
+    font-style: var(--display-italic);
+    font-weight: var(--display-weight);
+    font-size: clamp(44px, 8.5vw, 124px);
+    line-height: 0.96;
+    letter-spacing: var(--display-tracking);
+    color: var(--fg);
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    min-height: 50vh;
-    position: relative;
-    z-index: 1;
+    gap: 4px;
+    margin: 0;
 }
 
-.Hero .Title {
-    margin: 0 0 1.5rem 0;
-    font-weight: 700;
-    font-size: 2rem;
-    line-height: 2.375rem;
+.H1Line { display: block; }
+.H1Muted { color: var(--fg-3); }
+
+/* ── Bio ────────────────────────────────────────────────────────────────── */
+.Bio {
+    margin-top: clamp(28px, 4vh, 44px);
+    max-width: 60ch;
+    font-size: clamp(16px, 1.35vw, 19px);
+    line-height: 1.6;
+    color: var(--fg-2);
 }
 
-.Hero .Subtitle {
-    margin: -0.5rem 0 0 0;
-    font-weight: 700;
-    font-size: 1.25rem;
-    line-height: 1.5rem;
+/* ── Credibility row ────────────────────────────────────────────────────── */
+.CredRow {
+    margin-top: 36px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    border-top: 1px solid var(--line-soft);
+    border-bottom: 1px solid var(--line-soft);
+    list-style: none;
+    padding: 0;
 }
 
-.Hero p {
-    font-size: 1.125rem;
-    margin-bottom: 2rem;
-}
-
-.Intro {
+.CredItem {
+    padding: 18px 22px 18px 0;
+    border-right: 1px solid var(--line-soft);
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+    gap: 4px;
+}
+.CredItem:last-child { border-right: 0; }
+.CredItem + .CredItem { padding-left: 22px; }
+
+.CredK {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+}
+
+.CredV {
+    font-family: var(--display);
+    font-style: var(--display-italic);
+    font-weight: var(--display-weight);
+    font-size: clamp(13px, 1.1vw, 16px);
+    line-height: 1.3;
+    color: var(--fg);
+    letter-spacing: var(--display-tracking);
+}
+
+/* ── CTA row ────────────────────────────────────────────────────────────── */
+.CtaRow {
+    margin-top: 44px;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.BtnPrimary,
+.BtnGhost {
+    display: inline-flex;
     align-items: center;
+    gap: 8px;
+    padding: 13px 20px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid transparent;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.12s ease, background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
 }
 
-.ImagePrefix {
-    display: inline-block;
-    font-weight: 700;
-    font-size: 2rem;
-    line-height: 3rem;
-    color: var(--primary-color);
+.BtnPrimary {
+    background: var(--accent);
+    color: var(--accent-ink);
+    border-color: transparent;
 }
+.BtnPrimary:hover { transform: translateY(-1px); }
 
-.Image {
-    display: inline-block;
-    margin-left: 1rem;
-    width: 36px;
-    height: 36px;
-    transform-origin: 70% 70%;
+.BtnGhost {
+    border-color: var(--line);
+    color: var(--fg);
+    background: transparent;
 }
+.BtnGhost:hover { background: var(--bg-2); border-color: var(--fg-3); }
 
-@media (min-width: 768px) {
-    .Hero .Title {
-        font-size: 2.625rem;
-        line-height: 4rem;
-        margin-bottom: 0;
+/* ── Responsive ─────────────────────────────────────────────────────────── */
+@media (max-width: 680px) {
+    .CredRow {
+        grid-template-columns: 1fr;
     }
-
-    .Hero .Subtitle {
-        font-size: 2rem;
-        line-height: 3rem;
+    .CredItem {
+        border-right: 0;
+        border-bottom: 1px solid var(--line-soft);
+        padding: 14px 0;
     }
-
-    .ImagePrefix {
-        font-size: 2.625rem;
-        line-height: 4rem;
-    }
-
-    .Image {
-        width: 48px;
-        height: 48px;
-    }
-}
-
-.heroImageCont {
-    flex: 25%;
-    width: 100%;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding: 0 3rem 3rem 0;
-}
-
-.heroImageCont .heroImage {
-    width: 100%;
-    border-radius: 50%;
-}
-
-@media (max-width: 768px) {
-    .HeroContainer {
-        flex-direction: column;
-        margin-bottom: 50px;
-    }
-
-    .Hero {
-        display: block;
-    }
+    .CredItem:last-child { border-bottom: 0; }
+    .CredItem + .CredItem { padding-left: 0; }
 }

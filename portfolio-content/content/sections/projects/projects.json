@@ -2,106 +2,97 @@
   "projects": [
     {
       "visible": true,
-      "category": "Internal Amazon Tool",
-      "title": "Flowy, associates management tool",
-      "description": "Flowy is a real-time workforce management system used across multiple Amazon departments. It enables 24-hour shift planning with live WebSocket updates, handling complex scheduling logic for onboarded teams. Built with enterprise-grade CI/CD pipelines, robust cloud infrastructure, and a focus on reliability at scale.",
-      "tags": ["Vue JS", "AWS", "PostgreSQL", "Tailwind", "TypeScript", "Websockets", "Pipelines", "Cloud"],
+      "glyph": "FL",
+      "confidential": true,
+      "category": "Internal · Amazon",
+      "title": "Flowy",
+      "description": "Real-time workforce management used across multiple Amazon departments. 24-hour shift planning, live WebSocket updates, complex scheduling logic — built with enterprise-grade CI/CD and reliability at scale.",
+      "tags": ["Vue", "TypeScript", "AWS", "PostgreSQL", "WebSockets", "Pipelines"],
+      "role": "Full-Stack Developer",
+      "year": "2024 — Now",
       "image": {
         "src": "../../images/amazon3.png",
         "alt": "Flowy Amazon Internal Tool"
       },
-      "links": [
-        {
-          "type": "external",
-          "url": "https://www.amazon.co.uk"
-        }
-      ]
+      "links": []
     },
     {
       "visible": true,
-      "category": "Personal Project — AI SaaS",
-      "title": "Private Coach, AI cycling coaching platform",
-      "description": "An AI-powered cycling coaching SaaS that processes Garmin FIT files, syncs with Intervals.icu via OAuth, and delivers personalised training insights using Google Gemini. Features include interactive GPS maps, power zone analytics, CTL/ATL/TSB tracking, a library of 1,000+ structured workouts, AI-generated weekly training plans, and real-time coaching chat.",
-      "tags": ["Next.js", "React", "TypeScript", "Supabase", "PostgreSQL", "Google Gemini", "Tailwind"],
+      "glyph": "PC",
+      "confidential": false,
+      "category": "Personal · AI SaaS",
+      "title": "Private Coach",
+      "description": "AI-powered cycling coaching SaaS that processes Garmin FIT files, syncs with Intervals.icu via OAuth, and delivers personalised insights via Google Gemini. Interactive GPS maps, CTL/ATL/TSB tracking, 1,000+ structured workouts, AI-generated weekly plans.",
+      "tags": ["Next.js", "React", "TypeScript", "Supabase", "PostgreSQL", "Gemini", "Tailwind"],
+      "role": "Founder · Sole Developer",
+      "year": "2025",
       "image": {
         "src": "../../images/react.png",
         "alt": "Private Coach AI Cycling Platform"
       },
       "links": [
-        {
-          "type": "external",
-          "url": "https://private-coach-v2-web-azure.vercel.app/"
-        },
-        {
-          "type": "github",
-          "url": "https://github.com/adrian9211"
-        }
+        { "type": "external", "url": "https://private-coach-v2-web-azure.vercel.app/" },
+        { "type": "github",   "url": "https://github.com/adrian9211" }
       ]
     },
     {
       "visible": true,
-      "category": "Honours Project — Best in Class",
-      "title": "Imopeksis, educational knowledge platform",
-      "description": "A full-stack educational platform built as my honours project at Edinburgh Napier University, achieving the best result and best project in a cohort of 30+ students. Features 50+ curated articles with audio streaming, audience segmentation for teachers, parents, and coaches, full-text search, and an Express API with a Vue 3 frontend.",
-      "tags": ["Vue JS", "TypeScript", "Tailwind", "Node.js", "Express", "Vite", "Netlify", "Render"],
+      "glyph": "IM",
+      "confidential": false,
+      "category": "Honours · Best in class",
+      "title": "Imopeksis",
+      "description": "Full-stack educational platform built as my honours project at Edinburgh Napier — best result and best project in a cohort of 30+. 50+ curated articles with audio streaming, audience segmentation for teachers/parents/coaches, full-text search, and an Express API with a Vue 3 frontend.",
+      "tags": ["Vue", "TypeScript", "Tailwind", "Node.js", "Express"],
+      "role": "Solo · End-to-end",
+      "year": "2024 — 2025",
       "image": {
         "src": "../../images/vue.png",
         "alt": "Imopeksis Educational Platform"
       },
       "links": [
-        {
-          "type": "external",
-          "url": "https://imopeksis-sport-platform.netlify.app"
-        },
-        {
-          "type": "github",
-          "url": "https://github.com/adrian9211"
-        }
+        { "type": "external", "url": "https://imopeksis-sport-platform.netlify.app" },
+        { "type": "github",   "url": "https://github.com/adrian9211" }
       ]
     },
     {
       "visible": true,
+      "glyph": "SF",
+      "confidential": false,
       "category": "Saltire Scholar Internship",
-      "title": "Data Analyst Intern under Gareth Williams, Co-Founder of Skyscanner",
-      "description": "During my Saltire Scholar internship under Gareth Williams, Co-Founder of Skyscanner, I analysed government procurement procedures to identify inefficiencies and leveraged AI-driven solutions to streamline data collection, categorisation, and synthesis. Delivered clear, actionable reports that enhanced stakeholder decision-making while gaining valuable insights into entrepreneurial strategy and cross-functional collaboration.",
-      "tags": ["Python", "OpenAI API", "Data Analysis", "Pandas", "Dealflow"],
+      "title": "Procurement AI Analysis",
+      "description": "Internship under Gareth Williams, Co-Founder of Skyscanner. Analysed government procurement procedures using AI-driven techniques to streamline data collection, categorisation, and synthesis. Delivered clear reports that enhanced stakeholder decision-making.",
+      "tags": ["Python", "OpenAI API", "Pandas", "Data Analysis", "Dealflow"],
+      "role": "Data Analyst Intern",
+      "year": "2023",
       "image": {
         "src": "../../images/saltire.png",
         "alt": "Saltire Scholar Programme"
       },
-      "links": [
-        {
-          "type": "external",
-          "url": "https://www.entrepreneurialscotland.com/programmes/saltire-scholar-programme"
-        },
-        {
-          "type": "external",
-          "url": "https://dealflow.eu/"
-        }
-      ]
+      "links": []
     },
     {
       "visible": true,
-      "category": "Self-Employed — Client Project",
+      "glyph": "AQ",
+      "confidential": false,
+      "category": "Self-employed · Client",
       "title": "Aquati.co.uk",
-      "description": "A WordPress e-commerce platform built and maintained for Aquati Ltd, a UK-based water solutions provider. The site features secure WooCommerce payments, SEO-optimised product pages, responsive design across all devices, and cloud hosting. Designed in Figma and delivered end-to-end from branding to deployment.",
-      "tags": ["PHP", "WordPress", "WooCommerce", "Cloud", "Responsive Design", "Figma", "SEO", "Secure Payments"],
+      "description": "WordPress e-commerce platform built and maintained for Aquati Ltd, a UK water solutions provider. Secure WooCommerce payments, SEO-optimised product pages, fully responsive, cloud hosting. Designed in Figma and delivered end-to-end from branding to deployment.",
+      "tags": ["WordPress", "WooCommerce", "Figma", "SEO"],
+      "role": "Founder · Designer · Dev",
+      "year": "2023 — Now",
       "image": {
         "src": "../../images/AQTlogo.jpg",
         "alt": "Aquati Ltd Website",
         "linkTo": "https://aquati.co.uk"
       },
       "links": [
-        {
-          "type": "external",
-          "url": "https://www.aquati.co.uk"
-        }
+        { "type": "external", "url": "https://www.aquati.co.uk" }
       ]
     }
   ],
   "button": {
-    "visible": true,
-    "label": "Visit on Github",
+    "visible": false,
+    "label": "View All on GitHub",
     "url": "https://github.com/adrian9211"
   }
 }

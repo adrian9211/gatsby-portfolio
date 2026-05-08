@@ -1,93 +1,21 @@
 {
   "interests": [
-    {
-      "label": "Vue JS",
-      "image": {
-        "src": "../../images/vue.png",
-        "alt": "Vue JS"
-      }
-    },
-    {
-      "label": "React / Next.js",
-      "image": {
-        "src": "../../images/react.png",
-        "alt": "React and Next.js"
-      }
-    },
-    {
-      "label": "TypeScript",
-      "image": {
-        "src": "../../images/img_4.png",
-        "alt": "TypeScript"
-      }
-    },
-    {
-      "label": "Node.js / Express",
-      "image": {
-        "src": "../../images/js.png",
-        "alt": "Node.js and Express"
-      }
-    },
-    {
-      "label": "PostgreSQL",
-      "image": {
-        "src": "../../images/img_3.png",
-        "alt": "PostgreSQL"
-      }
-    },
-    {
-      "label": "AWS / Cloud",
-      "image": {
-        "src": "../../images/high-voltage.png",
-        "alt": "AWS and Cloud"
-      }
-    },
-    {
-      "label": "Tailwind CSS",
-      "image": {
-        "src": "../../images/img_2.png",
-        "alt": "Tailwind CSS"
-      }
-    },
-    {
-      "label": "Python",
-      "image": {
-        "src": "../../images/wrench.png",
-        "alt": "Python"
-      }
-    },
-    {
-      "label": "AI Integration",
-      "image": {
-        "src": "../../images/gem-stone.png",
-        "alt": "AI Integration"
-      }
-    },
-    {
-      "label": "Git / CI/CD",
-      "image": {
-        "src": "../../images/git.png",
-        "alt": "Git and CI/CD"
-      }
-    },
-    {
-      "label": "Responsive Design",
-      "image": {
-        "src": "../../images/nail-polish.png",
-        "alt": "Responsive Design"
-      }
-    },
-    {
-      "label": "Supabase",
-      "image": {
-        "src": "../../images/performance.png",
-        "alt": "Supabase"
-      }
-    }
+    { "label": "Vue JS",          "category": "Frontend", "years": "3+", "image": { "src": "../../images/vue.png",          "alt": "Vue JS" } },
+    { "label": "React / Next.js", "category": "Frontend", "years": "2+", "image": { "src": "../../images/react.png",        "alt": "React and Next.js" } },
+    { "label": "Tailwind CSS",    "category": "Frontend", "years": "3+", "image": { "src": "../../images/img_2.png",        "alt": "Tailwind CSS" } },
+    { "label": "TypeScript",      "category": "Language", "years": "3+", "image": { "src": "../../images/img_4.png",        "alt": "TypeScript" } },
+    { "label": "Python",          "category": "Language", "years": "2+", "image": { "src": "../../images/wrench.png",       "alt": "Python" } },
+    { "label": "Node.js / Express","category": "Backend", "years": "3+", "image": { "src": "../../images/js.png",           "alt": "Node.js and Express" } },
+    { "label": "Supabase",        "category": "Backend",  "years": "1+", "image": { "src": "../../images/performance.png",  "alt": "Supabase" } },
+    { "label": "WebSockets",      "category": "Backend",  "years": "2+", "image": { "src": "../../images/high-voltage.png", "alt": "WebSockets" } },
+    { "label": "PostgreSQL",      "category": "Data",     "years": "2+", "image": { "src": "../../images/img_3.png",        "alt": "PostgreSQL" } },
+    { "label": "AWS",             "category": "Cloud",    "years": "2+", "image": { "src": "../../images/high-voltage.png", "alt": "AWS and Cloud" } },
+    { "label": "AI Integration",  "category": "AI",       "years": "2+", "image": { "src": "../../images/gem-stone.png",   "alt": "AI Integration" } },
+    { "label": "Git / CI/CD",     "category": "Tools",    "years": "3+", "image": { "src": "../../images/git.png",          "alt": "Git and CI/CD" } }
   ],
   "button": {
-    "visible": true,
+    "visible": false,
     "label": "+ Load More",
-    "initiallyShownInterests": 6
+    "initiallyShownInterests": 12
   }
 }

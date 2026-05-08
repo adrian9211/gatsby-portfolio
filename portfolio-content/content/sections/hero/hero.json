@@ -1,12 +1,17 @@
 {
   "intro": "Hi,",
-
   "title": "My name is Adrian,",
   "subtitle": {
     "prefix": "a Full-Stack Developer based in Edinburgh, Scotland",
     "suffix": "."
   },
-  "description": "First Class Honours graduate currently building enterprise-grade applications at Amazon. Saltire Scholar under Gareth Williams, Co-Founder of Skyscanner. I build performant, scalable web applications across the full stack — from real-time workforce management systems to AI-powered SaaS platforms. My toolkit spans Vue, React, Next.js, TypeScript, AWS, PostgreSQL, and AI integration.",
+  "description": "I build performant, scalable web applications across the full stack — from real-time workforce systems to AI-powered SaaS. Currently shipping enterprise tools at Amazon; outside of work, building Private Coach, an AI cycling platform.",
+  "location": "Edinburgh, Scotland",
+  "credibility": [
+    { "k": "Amazon", "v": "2 yrs · Full-Stack" },
+    { "k": "Honours", "v": "First Class · Best in cohort" },
+    { "k": "Saltire Scholar", "v": "Under Gareth Williams, Skyscanner Co-Founder" }
+  ],
   "socialProfiles": {
     "from": ["LinkedIn", "StackOverflow", "Github", "Mail"],
     "showIcons": false

@@ -31,6 +31,8 @@ module.exports = ({ actions }) => {
     }
     type Interest {
         label: String
+        category: String
+        years: String
         image: Image
     }
     type InterestsButton {
@@ -42,11 +44,19 @@ module.exports = ({ actions }) => {
         type: String
         url: String
     }
+    type HeroCredential {
+        k: String
+        v: String
+    }
     type Project {
         visible: Boolean
+        glyph: String
+        confidential: Boolean
         category: String
         title: String
         description: String
+        role: String
+        year: String
         tags: [String]
         image: LinkedImage
         links: [ProjectLink]
@@ -168,6 +178,8 @@ module.exports = ({ actions }) => {
         title: String
         subtitle: HeroSubtitle
         description: String
+        location: String
+        credibility: [HeroCredential]
         socialProfiles: SocialProfiles
         calendly: CalendlyIntegration
     }
