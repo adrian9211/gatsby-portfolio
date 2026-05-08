@@ -12,7 +12,7 @@
 .Nav {
     max-width: var(--max);
     margin: 0 auto;
-    padding: 22px var(--pad);
+    padding: 28px var(--pad) 22px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -140,7 +140,7 @@
 .MobileCtaLink:hover { background: var(--bg-2); }
 
 /* ── Responsive ─────────────────────────────────────────────────────────── */
-@media (max-width: 680px) {
+@media (max-width: 860px) {
     .NavLinks { display: none; }
     .Burger   { display: flex; }
 }

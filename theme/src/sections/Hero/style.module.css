@@ -140,7 +140,7 @@
 .BtnGhost:hover { background: var(--bg-2); border-color: var(--fg-3); }
 
 /* ── Responsive ─────────────────────────────────────────────────────────── */
-@media (max-width: 680px) {
+@media (max-width: 860px) {
     .CredRow {
         grid-template-columns: 1fr;
     }

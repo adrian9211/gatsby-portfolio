@@ -34,6 +34,6 @@
 }
 .FooterLinks a:hover { color: var(--fg); }
 
-@media (max-width: 560px) {
-    .FooterRow { flex-direction: column; align-items: flex-start; gap: 10px; }
+@media (max-width: 860px) {
+    .FooterRow { flex-direction: column; align-items: flex-start; gap: 12px; }
 }
